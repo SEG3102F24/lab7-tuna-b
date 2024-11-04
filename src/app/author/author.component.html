@@ -1,0 +1,9 @@
+<h2>Search for authors</h2>
+<div class="container-fluid">
+  <label for="author">Author ID:</label>
+  <input type="text" id="author" #author>
+  <button (click)="submit(author.value)">Search</button>
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>
+</div>
